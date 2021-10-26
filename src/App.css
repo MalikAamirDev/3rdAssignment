@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif; 
+  color: rgb(14, 14, 14);
+  background: whitesmoke;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.Select{
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #FE572D;
+  margin-left: 75px;
+  margin-top: 5px;
+
+}
+.SelectOpt{
+  padding: 10px;
+  font-weight: bold;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main_content{
   display: flex;
-  flex-direction: column;
+  height: auto;
+  width: 100%;
+  flex-flow: wrap;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+  margin: 10px;
+  padding: 0;
+  min-height: 600px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border: 2px solid rgb(230, 230, 230);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card_body{
+  
+  text-align: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.description{
+  color: #969696;
+  padding: 8px 0;
+}
+.card_heading{
+  color: #131313;
+  font-size: 22px;
+  letter-spacing: 0.8px;
+}
+.price{
+    font-size: 25px;
+    color: #FA6828;
+    margin-bottom: 10px;
+    font-family: 'Old Standard TT';
+    
+}
+span{
+  font-size: 18px;
+  vertical-align: top;
+  color: #FA6828;
+}
+
+.buybutton {background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%)}
+.buybutton {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 600;
+ }
+
+ .buybutton:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+.button{
+  padding: 5px 10px 5px 10px;
+  color: rgb(27, 27, 27);
+  background-color: #DFE5EA;
+  margin: 5px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
